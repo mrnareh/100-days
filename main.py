@@ -1,11 +1,14 @@
-height=int(input("what is your height in cm? \n"))
+#leap year checker
 
-if height < 120:
-    print("you are too short")
-else:
-    age= int(input("what is your age? \n"))
-    if age <= 18:
-        print("pay $7")
+year = int(input("which year do you wanna check? \n"))
+
+if year % 4== 0:
+    if year %100 == 0:
+        if year % 400 == 0:
+            print(f"{year} is a leap year")
+        else:
+            print(f"{year} is not a leap year")
     else:
-        print("pay $12")
-
+        print(f"{year} is not a leap year")
+else:
+    print(f"{year} is not a leap year")
