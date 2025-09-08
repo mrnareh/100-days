@@ -1,9 +1,11 @@
-#BAND NAME GENRATOR
-print("Welcome to the Band name generetor")
+print("welcome to the tip calculator")
+totalbill= float(input("what was the total bill? $ "))
+tip = int(input("what is the percentage tip?"))
+persons =  int(input("how many are paying?\n"))
 
-city=input("what city did you grow up in? \n")
+total= (totalbill * (tip/100)) + totalbill
 
-pet = input("what is your pet's name? \n")
+perperson = total / persons
 
-bandname = city + " " + pet
-print("your band name is " + bandname)
+print("each person pays : $ " + str(perperson))
+
