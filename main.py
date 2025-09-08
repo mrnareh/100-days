@@ -1,11 +1,8 @@
-age= int(input("what is your current age? \n"))
+#even number checker
 
-years= 90- age
+num = int(input("which number would you like to check? \n"))
 
-days= years * 365
-
-weeks = years * 52
-
-months = years * 12
-
-print(f"you have {days} days, {weeks} weeks, {months} months and {years} years.")
+if num% 2 == 0:
+    print(f"{num} is an even number ")
+else:
+    print(f"{num} is an odd number")
