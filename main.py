@@ -1,7 +1,6 @@
-#a 2 digit number adder
-a = input("enter a 2 digit number: \n")
+weight= int(input("what is your weight in kg? \n"))
+height= float(input("what is your height in m? \n"))
 
-b = a[0]
-c = a[1]
+bmi = round(weight / (height ** 2), 2)
 
-print(int(b) + int(c))
+print("your bmi is: " + str(bmi))
