@@ -1,8 +1,11 @@
-#even number checker
+height=int(input("what is your height in cm? \n"))
 
-num = int(input("which number would you like to check? \n"))
-
-if num% 2 == 0:
-    print(f"{num} is an even number ")
+if height < 120:
+    print("you are too short")
 else:
-    print(f"{num} is an odd number")
+    age= int(input("what is your age? \n"))
+    if age <= 18:
+        print("pay $7")
+    else:
+        print("pay $12")
+
