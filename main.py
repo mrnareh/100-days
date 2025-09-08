@@ -1,7 +1,9 @@
-#name counter
-name= input("what is your name? \n")
-length= len(name)
-print(name)
-print(length)
+#BAND NAME GENRATOR
+print("Welcome to the Band name generetor")
 
-# print(len(input("what is your name? \n")))
+city=input("what city did you grow up in? \n")
+
+pet = input("what is your pet's name? \n")
+
+bandname = city + " " + pet
+print("your band name is " + bandname)
