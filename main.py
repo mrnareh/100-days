@@ -1,9 +1,11 @@
-weight= int(input("what is your weight in kg? \n"))
-height= float(input("what is your height in m? \n"))
+age= int(input("what is your current age? \n"))
 
-bmi = round(weight / (height ** 2), 2)
+years= 90- age
 
-#this is an F- string...reduces the need to convert variables to strings when concatenating
+days= years * 365
 
-print(f"your bmi is: {bmi}")
+weeks = years * 52
 
+months = years * 12
+
+print(f"you have {days} days, {weeks} weeks, {months} months and {years} years.")
