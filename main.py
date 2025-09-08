@@ -1,3 +1,7 @@
-print("Day 1 - Python Print Function")
-print("The function is declared like this:")
-print("print('what to print')")
+#creating a new line /n
+print("this is lesson 2 \nAnd am going far")
+
+#string concatenation
+print("hello" +" "+ "Mr NAREH")
+
+
