@@ -1,11 +1,7 @@
-print("welcome to the tip calculator")
-totalbill= float(input("what was the total bill? $ "))
-tip = int(input("what is the percentage tip?"))
-persons =  int(input("how many are paying?\n"))
+#a 2 digit number adder
+a = input("enter a 2 digit number: \n")
 
-total= (totalbill * (tip/100)) + totalbill
+b = a[0]
+c = a[1]
 
-perperson = total / persons
-
-print("each person pays : $ " + str(perperson))
-
+print(int(b) + int(c))
